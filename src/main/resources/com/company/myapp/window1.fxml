@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.myapp.controller.Controller1">
+   <children>
+      <ProgressBar fx:id="progresBar" layoutX="80.0" layoutY="814.0" prefHeight="52.0" prefWidth="1041.0" progress="0.0" style="-fx-accent: forestgreen;" />
+      <Label layoutX="547.0" layoutY="776.0" prefHeight="36.0" prefWidth="126.0" text="Laoding">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="392.0" fitWidth="695.0" layoutX="253.0" layoutY="192.0">
+         <image>
+            <Image url="@img/img.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
